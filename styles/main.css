@@ -1,0 +1,28 @@
+.container {
+  max-width: 960;
+  margin: 0 auto;
+  background: #6baae4;
+  font-size: 30px;
+  padding: 25px;
+}
+.parallax {
+  background: url('images/gaming.jpg') no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.text {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(223, 104, 104);
+}
+
+.text2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(189, 89, 89);
+}
+
+body {
+  @media  screen and (min-width: 2,532x1,170;) {
+    padding: 2532, 1170;
+  }
+}
